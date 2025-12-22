@@ -1,5 +1,5 @@
 Libraries: 
-	- pip install uv						  -> Tool to manage multiple virtual environments/containers. 
+	- pip install uv						  -> Tool to manage multiple virtual environments with difference depences. 
 	- pip instal pyarrow					  -> Let export data in parquet format. 
 
 Docker CLI: 
@@ -25,4 +25,5 @@ PowerShell CLI:
 	- cat file1.txt						-> display the content in the file. 
 	- pwd                               -> Print working directory
 	- ls 								-> Show all items in current directory
+	- uv run python -V
 	
