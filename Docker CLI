@@ -1,7 +1,7 @@
 Libraries: 
 	- pip install uv						  	-> Tool to manage multiple virtual environments with difference depences. 
 	- pip instal pyarrow					  	-> Let export data in parquet format. 
-	- pip install click 						-> Dependency to create CLI from a python script.
+	- pip install click 						-> Dependency to create CLI parameters/arguments from a python script.
 
 File Types:
 	- Dockerfile 							  	-> File type that describe exactly how we build a docker container; It has all the instructions to create a docker image and from this create a docker container.
@@ -25,9 +25,9 @@ Docker CLI:
 	- docker run -it --entrypoint=bash --rm test:pandas -> Entry in a docker image/container an also remove all the info. after close it.
 	- docker run -it --rm test:pandas 12				-> Execute a python script within an image with a predefined entry point not using the default bash.
 	- docker network create pg-network    				-> Create a network so it can be visible to other containers to connect to it
+	- docker network ls 								-> See all the networks in docker.
 	 
-
-Postgree with docker:
+Postgre with docker:
 	- docker run -it --rm `						
   	  -e POSTGRES_USER="root" `					-> Create an environment variable
  	  -e POSTGRES_PASSWORD="root" `				-> Create an environment variable
@@ -75,6 +75,8 @@ PowerShell CLI:
 	- uv run python -V
 	- uv init --python 3.13				-> Install an app within a virtual environment. 
 	- uv add pandas pyarrow 			-> Install frameworks/libraries within a virtual environment
+	- uv run jupyter notebook			-> Run a jupyter notebook from the terminal in a localhost
+	- un run jupyter nbconvert --to=script jpyternotebook.ipynb  -> Convert a Jupyter Notebook to a py script.
 	- rm uv.lock						-> Remove uv.lock file if need to restore it
 	- uv lock							-> Create again a uv.lock file updated
 	- uv sync 							-> sync all depencies within our venv
