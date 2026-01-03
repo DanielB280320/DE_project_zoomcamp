@@ -1,4 +1,4 @@
-<b> Docker CLI: </b>
+Docker CLI:
 
 Postgre with docker: Create and run PostgreSql server 
 	- docker run -it --rm `						
