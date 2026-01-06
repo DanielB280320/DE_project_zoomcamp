@@ -2,6 +2,9 @@
 github CLI:
 
   - git init
+  - git config --global user.name <DefaultUser>
+  - git config --global user.email <DefaultEmail>
+  - git config --global init.defaultbranch <branchName>
   - git clone <Repository path> TempRepoName
   - git remote add origin https://github.com/username/repo.git
   - git status
@@ -10,8 +13,13 @@ github CLI:
   - git rm -f --cached filename
   - Remove-Item -Recurse -Force foldername/.git
   - git ls-files
+  - git commit -am "Add and commit changes"
   - git commit -m "Commit changes"
-  - git branch -M main/master
+  - git log
+  - git checkout -b <branch/name>
+  - git branch -d <branch/name>
+  - git branch
+  - git branch -M <main or master>
   - git pull origin main 
   - git pull origin main --rebase
   - git pull origin main --allow-unrelated-histories
