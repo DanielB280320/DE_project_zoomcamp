@@ -16,6 +16,7 @@ github CLI:
   - git commit -am "Add and commit changes"
   - git commit -m "Commit changes"
   - git log
+  - git reset --hard <Commit has>
   - git checkout -b <branch/name>
   - git branch -d <branch/name>
   - git branch
