@@ -70,6 +70,7 @@ PowerShell CLI:
 	- code -r . 						-> force to open the current directory/folder in the same window
 	- cd test                           -> Get the directory of the specified folder
 	- cd ..								-> Get the previous directory
+	- Copy-Item -Path <Path> -Destination <Copy Destination> -Recurse -Force -Verbose  -> Copy a Dir to another Path/Dir
 	- ni file1.txt; 
     echo 'Hello from host' > file1.txt 	-> ni creates a New Item and echo load info. to that specified item. 
 	- cat file1.txt						-> display the content in the file. 
