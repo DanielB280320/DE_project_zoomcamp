@@ -80,7 +80,7 @@ PowerShell CLI:
 	- uv init --python 3.13										 -> Install an app within a virtual environment. 
 	- uv add pandas pyarrow 								     -> Install frameworks/libraries within a virtual environment
 	- uv run jupyter notebook									 -> Run a jupyter notebook from the terminal in a localhost
-	- un run jupyter nbconvert --to=script jpyternotebook.ipynb  -> Convert a Jupyter Notebook to a py script.
+	- uv run jupyter nbconvert --to=script jpyternotebook.ipynb  -> Convert a Jupyter Notebook to a py script.
 	- rm uv.lock												 -> Remove uv.lock file if need to restore it
 	- uv lock													 -> Create again a uv.lock file updated
 	- uv sync 													 -> sync all depencies within our venv
