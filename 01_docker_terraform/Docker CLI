@@ -63,7 +63,7 @@ Postgre with docker:
  	  dpage/pgadmin4
 
 Note: When trying to connect to a SQL Server running in Docker from our local/host machine, we must to connect 
-	  to the server only using the local port, otherwise the connection will fail.
+	  to the server only using the local port and Localhost, otherwise the connection will fail.
 
 PowerShell CLI: 
 
