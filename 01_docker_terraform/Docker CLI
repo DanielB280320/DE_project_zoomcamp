@@ -61,7 +61,10 @@ Postgre with docker:
  	  --network=pg-network `
  	  --name pgadmin `
  	  dpage/pgadmin4
-	
+
+Note: When trying to connect to a SQL Server running in Docker from our local/host machine, we must to connect 
+	  to the server only using the local port, otherwise the connection will fail.
+
 PowerShell CLI: 
 
 	- mkdir test                        -> Create a folder
