@@ -88,7 +88,7 @@ with DAG(
         configuration={
             "query": {
                 "query": f"""
-                    CREATE OR REPLACE EXTERNAL TABLE `{project_id}.{bq_dataset}.yellow_taxi_data_202107_v3`
+                    CREATE OR REPLACE EXTERNAL TABLE `{project_id}.{bq_dataset}.yellow_taxi_data_202107`
                     OPTIONS (
                         format = 'PARQUET',
                         uris = ['gs://{bucket}/{parquet_file}']
